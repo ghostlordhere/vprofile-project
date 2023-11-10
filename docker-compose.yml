@@ -4,7 +4,7 @@ services:
     build:
       context:  ./Docker-files/db
     image: subudhiray/vprofiledb
-    container name: vprodb
+    container_name: vprodb
     ports:
       - "3306:3306"
     volumes:
